@@ -1,0 +1,13 @@
+/*
+MeuApp
+  MeuApp.Domain
+    MeuApp.Domain.Contexts
+      MeuApp.Domain.Contexts.PaymentContext
+        MeuApp.Domain.Contexts.PaymentContexts.Entities
+        MeuApp.Domain.Contexts.PaymentContexts.ValueObjects
+        MeuApp.Domain.Contexts.PaymentContexts.Enums
+      MeuApp.Domain.Contexts.AccountContext
+        MeuApp.Domain.Contexts.AccountContext.Entities
+        MeuApp.Domain.Contexts.AccountContext.ValueObjects
+        MeuApp.Domain.Contexts.AccountContext.Enums
+*/
