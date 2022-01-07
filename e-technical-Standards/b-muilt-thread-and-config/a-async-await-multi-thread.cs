@@ -8,10 +8,10 @@ public IActionResult Index([FromServices] IContentRepository repository)
 
 ou 
 
-//Evite
+//Evite Extra
 public IActionResult Index([FromServices] IContentRepository repository)
 {
-		ViewBag.Courses = repository.GetContents(EContentType.Course).then = function(){
+		ViewBag.Courses = repository.GetContentsAsync(EContentType.Course).then = function(){
 			return View();
 		}.catch = function(error){
 			return error;

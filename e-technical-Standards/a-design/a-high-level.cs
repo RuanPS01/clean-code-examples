@@ -7,8 +7,7 @@ public static class Settings {
 //MeuProjeto.Api
 public Startup(IConfiguration configuration)
 {
-    Configuration = configuration;
-    Settings.ConnectionString = Configuration.GetConnectionString("connectionString");
+    Settings.ConnectionString = configuration.GetConnectionString("connectionString");
 }
 
 

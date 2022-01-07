@@ -13,7 +13,7 @@ public class Pagamento {
 }
 
 //Utilize
-public class Pagamento {
+public class PagamentoCartao {
     public virtual bool PodeSerPago() {
         ...
     }
