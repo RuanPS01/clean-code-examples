@@ -1,7 +1,1 @@
-
-## Uma classe não deve saber sobre 
-## detalhes dos seus filhos. Na 
-## verdade isto me soa tão estranho 
-## que não vejo um cenário onde uma 
-## classe pai consiga saber detalhes 
-## de seus filhos.
+## Uma classe não deve saber sobre detalhes dos seus filhos. Isto é incomum pois o uso das classes geralmente cria um cenário onde tal classe pai serve para criar seus filhos sem nenhuma relação de compartilhamento de informações
