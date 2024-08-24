@@ -1,4 +1,4 @@
-//Evite
+#region Evite
 public class Student 
 {
     public bool IsSubscriber { get; set; }
@@ -9,8 +9,9 @@ public class Student
             ... // Só executa se for assinante   
     }
 }
+#endregion
 
-//Utilize
+#region Utilize
 public class Student 
 {
     ...
@@ -23,3 +24,4 @@ public class Subscriber : Student
         ...        
     }
 }
+#endregion

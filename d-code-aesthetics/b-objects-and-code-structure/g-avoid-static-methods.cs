@@ -1,12 +1,18 @@
-// Evite
+#region Evite
+
 public static class NotificationContext
 {
     public static IList<Notification> Notifications { get; set;}
 }
 
+#endregion
 
-// Utilize
+
+#region Utilize
+
 public class NotificationContext
 {
     public IList<Notification> Notifications { get; set;}
 }
+
+#endregion

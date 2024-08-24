@@ -1,4 +1,5 @@
-// Evite
+#region Evite
+
 [TestMethod]
 public void ShouldReturnTrue 
 {
@@ -6,9 +7,14 @@ public void ShouldReturnTrue
     Assert.AreEqual(1);
 }
 
-// Utilize
+#endregion
+
+#region Utilize
+
 [TestMethod]
 public void ShouldReturnTrue 
 {
     Assert.AreEqual(true);
 }
+
+#endregion

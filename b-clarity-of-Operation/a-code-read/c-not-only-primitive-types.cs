@@ -1,4 +1,4 @@
-//Evite
+#region Evite
 public class Customer 
 {
     public string Email { get; set; }
@@ -13,13 +13,16 @@ public class Employee
 {
     public string Email { get; set; }
 
-    public Customer 
+    public Employee 
     {
         // Valida E-mail novamente
     }
 }
 
-//Utilize
+#endregion
+
+#region Utilize
+
 // Value Object
 public class Email 
 {
@@ -40,3 +43,5 @@ public class Employee
 {
     public Email Email { get; set; }
 }
+
+#endregion

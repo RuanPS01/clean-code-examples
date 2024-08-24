@@ -1,4 +1,5 @@
-// Evite
+#region Evite
+
 public class CustomerRepository 
 {
     public void CreateOrUpdate(Customer customer, bool create)
@@ -10,9 +11,14 @@ public class CustomerRepository
     }
 }
 
-// Utilize
+#endregion
+
+#region Utilize
+
 public class CustomerRepository 
 {
     public void Create(Customer customer) { ... }
     public void Update(Customer customer) { ... }
 }
+
+#endregion

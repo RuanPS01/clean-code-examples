@@ -1,4 +1,5 @@
-// Evite
+#region  Evite
+
 public void CreateCustomer() { ... } 
 
 public void CheckInventory() { ... }
@@ -9,6 +10,7 @@ public void UpdateCustomer() { ... }
 
 public void CalculateTotal() { .. }
 
+#endregion
 
 // Utilize
 public void CreateCustomer() { ... } 

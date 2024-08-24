@@ -1,4 +1,5 @@
-//Evite
+#region Evite
+
 [HttpGet("cursos")]
 public IActionResult Index([FromServices] IContentRepository repository)
 {
@@ -6,9 +7,10 @@ public IActionResult Index([FromServices] IContentRepository repository)
     return View();
 }
 
-ou 
+#endregion
 
-//Evite Extra
+#region Evite Extra
+
 public IActionResult Index([FromServices] IContentRepository repository)
 {
 		ViewBag.Courses = repository.GetContentsAsync(EContentType.Course).then = function(){
@@ -18,11 +20,15 @@ public IActionResult Index([FromServices] IContentRepository repository)
 		};
 }
 
+#endregion
 
-//UTILIZE
+#region Utilize
+
 [HttpGet("cursos")]
 public async Task<IActionResult> Index([FromServices] IContentRepository repository)
 {
     ViewBag.Courses = await repository.GetContentsAsync(EContentType.Course);
     return View();
 }
+
+#endregion

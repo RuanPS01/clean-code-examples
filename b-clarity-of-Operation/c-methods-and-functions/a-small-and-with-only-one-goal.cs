@@ -1,4 +1,5 @@
-// Evite
+#region Evite
+
 public void RealizarPedido() 
 { 
     // Cadastra o cliente
@@ -7,8 +8,13 @@ public void RealizarPedido()
     // Salva o pedido
 }
 
-// Utilize
+#endregion
+
+#region Utilize
+
 public void SaveCustomer() { ... }
 public void ApplyDiscount() { ... }
 public void UpdateInventory() { ... }
 public void PlaceOrder() { ... }
+
+#endregion

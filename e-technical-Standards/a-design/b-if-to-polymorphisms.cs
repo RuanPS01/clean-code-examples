@@ -1,4 +1,5 @@
-//Evite
+#region Evite
+
 public class Pagamento {
     public bool PodeSerPago() {
         if(tipo == ETipoPagamento.Boleto)
@@ -12,7 +13,10 @@ public class Pagamento {
     }
 }
 
-//Utilize
+#endregion
+
+#region Utilize
+
 public class PagamentoCartao {
     public virtual bool PodeSerPago() {
         ...
@@ -25,3 +29,5 @@ public class PagamentoBoleto : Pagamento {
             return true;
     }
 }
+
+#endregion

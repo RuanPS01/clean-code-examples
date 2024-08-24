@@ -1,4 +1,4 @@
-// Evite
+#region Evite
 public class ShoppingCart
 {
     public decimal Total { get; private set; }
@@ -13,7 +13,9 @@ public class ShoppingCart
     }
 }
 
-// Melhorando
+#endregion
+
+#region Utilize
 public class ShoppingCart
 {
     public decimal Total { get; private set; }
@@ -24,3 +26,5 @@ public class ShoppingCart
             Total += item.Price;
     }
 }
+
+#endregion

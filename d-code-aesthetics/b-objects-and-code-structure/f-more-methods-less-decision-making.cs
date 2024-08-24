@@ -1,4 +1,4 @@
-// Evite
+#region Evite
 public class Order
 {
     public void Pay(CreditCard card)
@@ -8,9 +8,12 @@ public class Order
 
         // Pagamento via cartão
     }
+}
 
+#endregion
 
-// Utilize
+#region Utilize
+
 public class Order
 {
     public void Pay()
@@ -23,3 +26,5 @@ public class Order
         // Pagamento via cartão de crédito
     }
 }
+
+#endregion
