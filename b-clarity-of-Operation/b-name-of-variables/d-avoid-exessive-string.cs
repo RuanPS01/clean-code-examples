@@ -1,9 +1,9 @@
 // Evite
-if(environment == "PROD")
+if(theme == "dark")
     ...
 
 // Utilize
-const string ENV = "PROD";
+const string theme = "dark";
 
-if(environment == ENV)
+if(selectedTheme == theme)
     ...
