@@ -2,7 +2,7 @@
 public class clsCustomer { ... }
 
 // Evite
-string strNome = "André";
+string strNome = "Fulano";
 
 // Evite
 var situação - "Pendente";
