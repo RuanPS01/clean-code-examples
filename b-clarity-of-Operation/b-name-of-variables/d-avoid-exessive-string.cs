@@ -1,9 +1,9 @@
 // Evite
-if(theme == "dark")
+if(selectedExampleItem == "default")
     ...
 
 // Utilize
-const string theme = "dark";
+const string defaultExampleItem = "default";
 
-if(selectedTheme == theme)
+if(selectedExampleItem == defaultExampleItem)
     ...
